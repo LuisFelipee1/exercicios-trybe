@@ -5,13 +5,48 @@
     <title>HTML</title>
     <style></style>
   </head>
-  <body>
-    <h1>Cores</h1>
-    <p>Qual é a sua cor favorita?</p>
-    <ul>
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+  <body class="size">
+    <style>
+
+     .letter {
+        font-family: sans-serif;
+        font-weight:600;
+     }
+     .size {
+        font-size:16px;
+     }
+     
+     .body {
+        size: 48px;
+     }
+      
+      #modification {
+         font-style: italic;
+         line-height: normal;
+         text-align: left;
+         text-decoration: dotted;
+      }
+      #color1 {
+        color: yellow;
+      }
+      #color2 {
+        color: rgb(255, 0, 0);
+      }
+      #color3 {
+        color: rgb(78, 38, 9);
+      }
+     #color {
+        background-color: black;
+     }
+      
+
+    </style>
+    <h1 class="letter">Cores</h1>
+    <p class="body">Qual é a sua cor favorita?</p>
+    <ul id="modification">
+      <li id="color1">Amarelo</li>
+      <li id="color2">Vermelho</li>
+      <li id="color3">Marrom</li>
     </ul>
   </body>
 </html>
